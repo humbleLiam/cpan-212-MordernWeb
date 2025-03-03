@@ -1,0 +1,52 @@
+.resumeSection {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    margin-left: 50%;
+    justify-self: center;
+  }
+  
+  .sectionHeader {
+    background-color: #007bff; /* Blue */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .sectionHeader:hover {
+    background-color: #0056b3; 
+  }
+  
+  .sectionHeader h2 {
+    margin: 0;
+  }
+  
+  .resumeSection {
+    background-color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .resumeCard {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .resumeCard p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
